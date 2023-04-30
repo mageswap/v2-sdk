@@ -2,13 +2,13 @@
   "name": "@mageswap/v2-sdk",
   "license": "MIT",
   "version": "3.0.1",
-  "description": "🛠 An SDK for building applications on top of mageswap",
+  "description": "🛠 An SDK for building applications on top of Uniswap V2",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
   ],
-  "repository": "https://github.com/mageswap/v2-sdk.git",
+  "repository": "https://github.com/Uniswap/uniswap-v2-sdk.git",
   "keywords": [
     "uniswap",
     "ethereum"
@@ -31,7 +31,7 @@
   "devDependencies": {
     "@types/big.js": "^4.0.5",
     "@types/jest": "^24.0.25",
-    "@mageswap/v2-core": "^1.0.1",
+    "@mageswap/v2-core": "github:mageswap/v2-core",
     "tsdx": "^0.14.1"
   },
   "engines": {

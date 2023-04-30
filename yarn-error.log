@@ -1,0 +1,80 @@
+Arguments: 
+  /usr/local/bin/node /snap/node/7392/bin/yarn.js
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/esper/.foundry/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.15.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@mageswap%2fv2-core: Not found
+      at params.callback [as _callback] (/snap/node/7392/lib/cli.js:66145:18)
+      at self.callback (/snap/node/7392/lib/cli.js:140890:22)
+      at Request.emit (node:events:513:28)
+      at Request.<anonymous> (/snap/node/7392/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/snap/node/7392/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "@mageswap/v2-sdk",
+    "license": "MIT",
+    "version": "3.0.1",
+    "description": "🛠 An SDK for building applications on top of mageswap",
+    "main": "dist/index.js",
+    "typings": "dist/index.d.ts",
+    "files": [
+      "dist"
+    ],
+    "repository": "https://github.com/mageswap/v2-sdk.git",
+    "keywords": [
+      "uniswap",
+      "ethereum"
+    ],
+    "module": "dist/v2-sdk.esm.js",
+    "scripts": {
+      "lint": "tsdx lint src test",
+      "build": "tsdx build",
+      "start": "tsdx watch",
+      "test": "tsdx test",
+      "prepublishOnly": "tsdx build"
+    },
+    "dependencies": {
+      "@ethersproject/address": "^5.0.0",
+      "@ethersproject/solidity": "^5.0.0",
+      "@mageswap/sdk-core": "github:mageswap/sdk-core",
+      "tiny-invariant": "^1.1.0",
+      "tiny-warning": "^1.0.3"
+    },
+    "devDependencies": {
+      "@types/big.js": "^4.0.5",
+      "@types/jest": "^24.0.25",
+      "@mageswap/v2-core": "^1.0.1",
+      "tsdx": "^0.14.1"
+    },
+    "engines": {
+      "node": ">=10"
+    },
+    "prettier": {
+      "printWidth": 120,
+      "semi": false,
+      "singleQuote": true
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
