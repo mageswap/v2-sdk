@@ -1263,7 +1263,7 @@
 
 "@mageswap/sdk-core@github:mageswap/sdk-core":
   version "3.2.2"
-  resolved "https://codeload.github.com/mageswap/sdk-core/tar.gz/60d06dd38199b7d1d2388365183cf76dbc5e27e8"
+  resolved "https://codeload.github.com/mageswap/sdk-core/tar.gz/9707fad01cc7c719f745d2e31df4445923d52801"
   dependencies:
     "@ethersproject/address" "^5.0.2"
     big.js "^5.2.2"
@@ -1274,7 +1274,7 @@
 
 "@mageswap/v2-core@github:mageswap/v2-core":
   version "1.0.1"
-  resolved "https://codeload.github.com/mageswap/v2-core/tar.gz/8387131e069846786a3b725cdcdf0122b6f4ffc3"
+  resolved "https://codeload.github.com/mageswap/v2-core/tar.gz/367727ec6aa4057fb6f02a0822f62b83b65931ae"
 
 "@rollup/plugin-babel@^5.1.0":
   version "5.3.1"
